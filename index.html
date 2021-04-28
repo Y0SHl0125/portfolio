@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yoshi-portfolio</title>
+  <!-- font-family -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/swiper.css">
+  <link rel="stylesheet" href="css/circle.css">
+
+  <!-- wow -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- form-run -->
+  <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="image/favicon.ico">
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <header id="js_header" class="header">
+
+      <div class="nav_logo">
+        <img src="image/yoshi_logo/logo.svg" alt="">
+      </div><!-- /.nav__logo -->
+
+      <!-- Swiper START -->
+      <div class="swiper-container">
+        <!-- メイン表示部分 -->
+        <div class="swiper-wrapper">
+          <!-- 各スライド -->
+          <div class="swiper-slide"><img src="/image/header/winter.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="/image/header/spring.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="/image/header/summer.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="/image/header/autumn.JPG" alt=""></div>
+        </div>
+        <div class="swiper-pagination swiper-pagination-white"></div>
+      </div>
+      <!-- Swiper END -->
+      <!-- /.header_bg -->
+    </header>
+    <!-- /.header -->
+    <main class="">
+      <div class="nav" id="global_nav">
+        <nav class="header_nav">
+          <p>yoshi</p>
+          <div class="menu-btn btn-trigger" id="btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="nav_menu menu">
+            <li class="menu__item"><a class="section_link btn-trigger" href="#about">About</a></li>
+            <li class="menu__item"><a class="section_link btn-trigger" href="#skills">Skills</a></li>
+            <li class="menu__item"><a class="section_link btn-trigger" href="#works">Works</a></li>
+            <li class="menu__item"><a class="section_link btn-trigger" href="#contact">Contact</a></li>
+          </ul>
+          <!-- /.nav_menu -->
+        </nav><!-- /.header_nav -->
+      </div>
+      <!--.nav-->
+      <section class="about" id="about">
+        <h2 class="section_ttl">About</h2>
+        <!-- /.section_ttl -->
+        <div class="about_inner inner wow slideInLeft" data-wow-duration="1.5s">
+          <h2 class="aside_ttl section_ttl">About</h2>
+          <!-- /.aside_ttl -->
+          <div class="about_myPhoto">
+            <img src="/image/about/myPhoto.JPG" alt="私">
+          </div>
+          <!-- /.about_myPhoto -->
+          <div class="about_text">
+            <h3 class="text_ttl">はじめまして、Yoshiと申します！</h3>
+            <!-- /.text_ttl -->
+            <p class="text_sub">
+              四季をテーマとしたWebサイト『yoshi-portfolio』をご覧いただき、ありがとうございます。私は現在25歳で滋賀県に住んでおります。趣味は一眼レフ、キャンプ、筋トレ、美容、カフェ、お笑いと幅広く楽しんでいます。よろしくお願いいたします。
+            </p>
+          </div>
+          <!-- /.about_text -->
+        </div>
+        <!-- /.about_inner -->
+      </section>
+      <!-- /.about -->
+
+      <section class="skills" id="skills">
+        <h2 class="section_ttl">Skills</h2>
+        <!-- /.section_ttl -->
+        <div class="skills_inner inner wow slideInRight" data-wow-duration="1.5s">
+          <h2 class="aside_ttl section_ttl">Skills</h2>
+          <!-- /.aside_ttl -->
+          <div class="ccl">
+            <figure>
+              <!-- <figcaption>80%</figcaption> -->
+              <svg viewBox="0 0 63.6619772368 63.6619772368">
+                <circle class="pie1" cx="31.8309886184" cy="31.8309886184" r="15.9154943092" />
+              </svg>
+            </figure>
+            <figure>
+              <!-- <figcaption>80%</figcaption> -->
+              <svg viewBox="0 0 63.6619772368 63.6619772368">
+                <circle class="pie2" cx="31.8309886184" cy="31.8309886184" r="15.9154943092" />
+              </svg>
+            </figure>
+            <figure>
+              <!-- <figcaption>60%</figcaption> -->
+              <svg viewBox="0 0 63.6619772368 63.6619772368">
+                <circle class="pie3" cx="31.8309886184" cy="31.8309886184" r="15.9154943092" />
+              </svg>
+            </figure>
+          </div>
+          <!-- /.circle -->
+          <div class="skills_img">
+            <img src="/image/skills/html.png" alt="" class="skill_img">
+            <img src="/image/skills/css.png" alt="" class="skill_img">
+            <img src="/image/skills/js.png" alt="" class="skill_img">
+          </div>
+          <!-- /.skills_img -->
+        </div>
+        <!-- /.skills_inner -->
+      </section>
+      <!-- /.skills -->
+
+      <section class="works" id="works">
+        <h2 class="section_ttl">Works</h2>
+        <!-- /.section_ttl -->
+        <div class="works_inner inner wow slideInLeft" data-wow-duration="1.5s">
+          <h2 class="aside_ttl section_ttl">Works</h2>
+          <!-- /.aside_ttl -->
+          <div class="works_img">
+            <a href="/LINEレスポンシブなし/"><img src="/image/works/LINE.png" alt="初めての模写" class="work_img"><p>初めての模写</p></a>
+            <a href="/fitness/"><img src="/image/works/fitness.png" alt="" class="work_img"><p>fitness(レスポンシブ)</p></a>
+            <a href="/30days/"><img src="/image/works/デイトラ.png" alt="" class="work_img"><p>デイトラ（レスポンシブ）</p></a>
+            <a href="/DAY12_BOOTSTRAP/"><img src="/image/works/BOOTSTRAP.png" alt="" class="work_img"><p>Bootstrap</p></a>
+          </div>
+          <!-- /.works_img -->
+        </div>
+        <!-- /.works_inner -->
+
+      </section>
+      <!-- /.works -->
+
+      <section class="contact" id="contact">
+        <h2 class="section_ttl">Contact</h2>
+        <!-- /.section_ttl -->
+        <div class="contact_inner inner wow slideInRight" data-wow-duration="1.5s">
+          <h2 class="aside_ttl section_ttl">Contact</h2>
+          <!-- /.aside_ttl -->
+          <!-- <div class="contact_means"> -->
+            <!-- <div class="means_each">
+              <img src="/image/contact/smart.png" alt="">
+              <h5 class="">お電話</h5>
+              <p class="">012-3456-7890</p>
+            </div> -->
+            <!-- /.means_each-->
+            <!-- <div class="means_each">
+              <img src="/image/contact/mail.png" alt="">
+              <h5 class="">メール</h5>
+              <p class="text-muted">example@example.com</p>
+            </div> -->
+            <!-- /.means_each-->
+          <!-- </div> -->
+          <!-- /.contact_means -->
+          <p style="color: red;" >現在使用不可</p>
+          <div class="form-kerri contact_form">
+            <div id="message"></div>
+            <form class="formrun" action="https://form.run/api/v1/r/6f8mi6vg2jy2zfei7s8fkydm" method="post">
+              <div class="privacy_info">
+
+                <div class="form_group">
+                  <input name="お名前" id="name" type="text" class="form_control form_text" placeholder="お名前">
+                </div>
+                <!-- /.form-group -->
+                <div class="form_group">
+                  <input name="メールアドレス" id="email" type="text" class="form_control form_email" placeholder="メールアドレス*"
+                    data-formrun-type="email" data-formrun-required>
+                  <div data-formrun-show-if-error="メールアドレス" style="font-size: 1.5rem; color: red;">メールアドレスを正しく入力してください</div>
+                </div>
+                <!-- /.form-group -->
+              </div>
+              <!-- /.privacy_info -->
+              <div class="form_group">
+                <textarea name="お問い合わせ" class="form_control" id="comments" placeholder="お問い合わせ内容をご記入ください*"
+                  data-formrun-required></textarea>
+                <div data-formrun-show-if-error="お問い合わせ" style="font-size: 1.5rem; color: red;">お問い合わせ入力してください</div>
+              </div>
+              <label style="font-size:1.5rem;">個人情報利用同意 [必須]</label>
+              <input type="checkbox" name="個人情報利用同意" data-formrun-required>
+              <div data-formrun-show-if-error="個人情報利用同意" style="font-size: 1.5rem; color: red;">同意してください</div>
+              <!-- /.form-group -->
+              <!-- ボット投稿をブロックするためのタグ -->
+              <div class="_formrun_gotcha">
+                <style media="screen">
+                  ._formrun_gotcha {
+                    position: absolute !important;
+                    height: 1px;
+                    width: 1px;
+                    overflow: hidden;
+                  }
+                </style>
+                <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+                <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+              </div>
+              <div class="btn">
+                <input type="submit" id="submit" name="send" class="submitBnt  btn-custom text-uppercase" value="送信する"
+                  data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">
+              </div><!-- /.btn -->
+            </form>
+            <!-- /#working_form -->
+          </div>
+          <!-- /.contact_form -->
+        </div>
+        <!-- /.contact_inner -->
+      </section>
+      <!-- /.contact -->
+    </main>
+
+    <footer class="footer">
+      <div class="footer_inner">
+        <div class="footer_sns">
+          <a href="https://twitter.com/home?lang=ja"><img src="/image/sns_logo/twitter.png" alt="" class="sns_img"></a>
+          <a href="https://github.com/Y0SHl0125"><img src="/image/sns_logo/github.png" alt="" class="sns_img"></a>
+        </div>
+        <!-- /.footer_img -->
+        <p class="copyright">2021 © Copyright | Yoshi 2021 All Right Reserved</p>
+        <!-- /.copyright -->
+      </div>
+      <!-- /.footer_inner -->
+    </footer>
+    <!-- /.footer -->
+
+  </div>
+  <!-- /.wrapper -->
+
+  <!-- Jquery読み込み -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- main.js -->
+  <script src="/js/main.js"></script>
+
+  <!-- wow.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous"></script>
+
+  <script>
+    new WOW().init();
+  </script>
+
+  <!-- circle -->
+  <script src="/js/circle.js"></script>
+
+  <!-- swiper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.3.7/js/swiper.min.js"></script>
+  <script src="/js/swiper.js"></script>
+
+</body>
+
+</html>
